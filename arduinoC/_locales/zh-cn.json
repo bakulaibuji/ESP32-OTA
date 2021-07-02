@@ -1,0 +1,7 @@
+{
+    "otaUpdate.wifiConfig|block": "无线网连接：用户名[STR1] 密码[STR2]",
+    "otaUpdate.otaConfig|block": "使用OTA下载代码，设置ESP32的名称为[STR]",
+    "otaUpdate.otaBegin|block": "开始OTA连接",
+    "otaUpdate.SIZE.1|menu": "29*29(1)",
+    "otaUpdate.SIZE.2|menu": "58*58(2)"
+}

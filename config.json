@@ -1,0 +1,38 @@
+{
+  "name": {
+    "zh-cn": "OTA上传模块",
+    "en": "OTA upload module"
+  },
+  "description": {
+    "zh-cn": "OTA上传模块",
+    "en": "OTA upload module"
+  },
+  "author": "CoCube",
+  "email": "me_wyx@sjtu.edu.cn",
+  "license": "MIT",
+  "isBoard": false,
+  "id": "OTA",
+  "version": "1.0.0",
+  "platform": [
+    "win",
+    "mac",
+    "web"
+  ],
+  "asset": {
+    "arduinoC": {
+      "dir": "arduinoC/",
+      "version": "1.0.0",
+      "board": [
+        "firebeetleesp32"
+      ],
+      "main": "main.ts",
+      "files": [
+        "_images/icon.svg",
+        "_locales/zh-cn.json",
+        "_menus/firebeetleesp32.json",
+        "main.ts",
+        "libraries/libraries.zip"
+      ]
+    }
+  }
+}
