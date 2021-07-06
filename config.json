@@ -4,7 +4,7 @@
     "en": "OTA upload module"
   },
   "description": {
-    "zh-cn": "OTA上传模块",
+    "zh-cn": "该模块用于实现OTA功能，可将代码从上位机无线下载到ESP32",
     "en": "OTA upload module"
   },
   "author": "CoCube",
