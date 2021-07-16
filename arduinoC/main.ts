@@ -33,6 +33,7 @@ namespace otaUpdate {
     //% STR.shadow="string" STR.defl=myCoCube
     export function otaConfig(parameter: any, block: any) {
         let str = parameter.STR.code;
+
         Generator.addInclude('addMDNSHeader', `#include <ESPmDNS.h>`);
         Generator.addInclude('addWifiUdpHeader', `#include  <WiFiUdp.h>`);
         Generator.addInclude('addOTAHeader', `#include <ArduinoOTA.h>`);
@@ -56,6 +57,6 @@ namespace otaUpdate {
     //% block="start OTA connection" blockType="command"
     export function otaBegin(parameter: any, block: any) {
         Generator.addCode(`ArduinoOTA.handle();`);
-        Generator.addInclude('addPinConfig', `//设置pin口\nint D2 25;\nint D3 26;\nint D4 27;\nint D5 9;\nint D6 10;\nint D7 13;\nint D8 5;\nint D9 2;\n\n`)
+
     }
 }
